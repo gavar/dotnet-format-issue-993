@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Global Ruleset" ToolsVersion="16.0">
+  <!-- StyleCop -->
+  <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/DOCUMENTATION.md -->
+  <!-- https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/StyleCop.Analyzers/StyleCop.Analyzers.CodeFixes/rulesets/StyleCopAnalyzersDefault.ruleset -->
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.SpecialRules">
+    <Rule Id="SA0001" Action="None"/>
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.NamingRules">
+    <Rule Id="SA136" Action="Warning"/>
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.DocumentationRules">
+    <Rule Id="SA1600" Action="None"/>
+    <Rule Id="SA1601" Action="None"/>
+    <Rule Id="SA1602" Action="None"/>
+    <Rule Id="SA1603" Action="None"/>
+    <Rule Id="SA1633" Action="None"/>
+  </Rules>
+  <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.NamingRules">
+    <Rule Id="SA1300" Action="None"/>
+  </Rules>
+
+  <!-- Roslynator -->
+  <!-- http://pihrt.net/Roslynator/Analyzers -->
+  <!-- https://github.com/JosefPihrt/Roslynator/blob/master/docs/HowToConfigureAnalyzers.md -->
+  <Rules AnalyzerId="Roslynator.Formatting.Analyzers" RuleNamespace="Roslynator.CodeAnalysis.CSharp">
+    <Rule Id="RCS0053" Action="Warning"/>
+  </Rules>
+</RuleSet>

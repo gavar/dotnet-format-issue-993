@@ -1,0 +1,15 @@
+{
+  "name": "dotnet-format-issue-993",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "husky install .config/husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^5.0.9",
+    "lint-staged": "^10.5.4"
+  }
+}

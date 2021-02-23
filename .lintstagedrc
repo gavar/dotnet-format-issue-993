@@ -1,0 +1,3 @@
+{
+  "*.{cs,razor}": "dotnet format -wsa warn --check --include"
+}
